@@ -1,1 +1,4 @@
-﻿Console.WriteLine("2 Hello, World!");
+﻿global::System.Object value = Console.WriteLine("Введите ваше имя");
+string username = Console.ReadLine();
+Console.WriteLine("Привет,");
+Console.WriteLine(username);
